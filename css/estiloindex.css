@@ -3,10 +3,13 @@
     padding: 0;
 }
 body {
-    color: white
+    color: ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 #principal {
+    text-align: center;
 
     width: 1291px;
 }
@@ -14,10 +17,10 @@ body {
 #cabecalho {
     background-color: #006591;
     padding: 5px;
+    position: ;
 }
 
 .links-menu {
-
     margin: 10px;
     padding-top: 95px;
     padding-right: 5px;
@@ -32,3 +35,51 @@ body {
 
 .links-menu:hover {background-color: #045577;}
 
+.link-login {
+    margin: 10px;
+    padding-top: 95px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-size: 18px;
+    background-color: #045577;
+    
+
+}
+
+#corpo {
+    align-items: flex-start;
+}
+
+
+
+#faca-pedido {
+
+    padding-top: 15px;
+    padding-right:80px;
+    padding-bottom: 15px;
+
+}
+
+#letra {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color:#006591;
+    
+}
+
+.button-principal {
+    border: 1px solid #c41630;
+    border-radius: 8px;
+    padding: 25px;
+    color: white;
+    background-color: #E11936;
+    margin-left: 85px;
+}
+.button-principal:hover {
+    background-color: #c41630;
+}
