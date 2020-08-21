@@ -83,3 +83,10 @@ body {
 .button-principal:hover {
     background-color: #c41630;
 }
+
+#iniciepedido {
+    font-weight: bold;
+    font-size: 25px;
+    color: #006591;
+}
+
